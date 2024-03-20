@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi" class="translated-ltr">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hộp Web Flex</title>
+  <link href="./style.css" rel="'stylesheet">
+
+  <style>
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      height: 100vh;
+    }
+    
+    .header{
+      background-color: #9195F6;
+      text-align: center;
+      flex:1;
+      max-width: 200px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .menu{
+      background-color: #41C9E2;
+      text-align: center;
+      flex:1;
+      max-width: 200px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .content{
+      background-color: #4CCD99;
+      text-align: center;
+      flex:1;
+      max-width: 200px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .title-log{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .prices-house{
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .service{
+      list-style: square;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .service > li {
+      margin-bottom: 15px;
+    }
+
+    .button{
+      color: red;
+      background-color: greenyellow;
+      border: 0;
+      border-radius: 10%;
+    }
+
+    @media(max-width:680px){
+      .container{
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+  </style>
+  <head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="title-log"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ngôi nhà bình thường 🏚️</font></font></div>
+        <div class="prices-house"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3 triệu/tháng</font></font></div>
+        <ul class="service">
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛜 Wifi-100K/tháng</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💧 Nước 100k/tháng</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡️ Điện 3,5K/một ít điện</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ Phục vụ 100k/tháng</font></font></li>
+        </ul>
+        <img src="https://vinhtuong.com/sites/default/files/styles/large/public/2023-02/dac-diem-nha-cap-4.png?itok=EMWrIP8j" height="150px" alt="Căn nhà">
+        <button class="button"><a href="./z5267543915638_3a2677d86a6413b131d200c2fe6964fa.jpg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thuê</font></font></a></button>
+      </div>
+      <div class="menu">
+        <div class="title-log"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nhà ngay trung tâm 🏢</font></font></div>
+        <div class="prices-house"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7 triệu/tháng</font></font></div>
+        <ul class="service">
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛜 Wifi-200K/tháng</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💧 Nước 200k/tháng</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡️ Điện 5K/một ít điện</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ Phục vụ 100k/tháng</font></font></li>
+        </ul>
+        <img src="https://nld.mediacdn.vn/2015/tdh-1429520708888.jpg" height="150px">
+        <button class="button"><a href="./z5267543915638_3a2677d86a6413b131d200c2fe6964fa.jpg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thuê</font></font></a></button>
+      </div>
+      <div class="content">
+        <div class="title-log"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nhà biệt thự 🕍</font></font></div>
+        <div class="prices-house"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">15 triệu/tháng</font></font></div>
+        <ul class="service">
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛜 Wifi-2 🍠/tháng</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💧 Nước 1 🍠/tháng</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡️ Điện 50K/một ít điện</font></font></li>
+          <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ Phục vụ 1 🍠/tháng</font></font></li>
+        </ul>
+        <img src="https://storage.googleapis.com/digital-platform/chiem_nguong_20_mau_biet_thu_dep_sang_trong_bac_nhat_so_2_18ef110d5e/chiem_nguong_20_mau_biet_thu_dep_sang_trong_bac_nhat_so_2_18ef110d5e.jpg" height="130px">
+        <button class="button"><a href="./z5267543915638_3a2677d86a6413b131d200c2fe6964fa.jpg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thuê</font></font></a></button>
+      </div>
+    </div>
+  </body>
